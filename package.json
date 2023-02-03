@@ -45,8 +45,9 @@
   "lint-staged": {
     "src/**/*.{ts,tsx,js,jsx}": [
       "prettier --write",
-      "eslint --cache --fix",
-      "git add"
+      "npm run lint",
+      "git add",
+      "git commit"
     ]
   },
   "devDependencies": {
