@@ -6,7 +6,7 @@
       "dom.iterable",
       "esnext"
     ],
-    "allowJs": true,
+    "allowJs": false,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -15,12 +15,23 @@
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
     "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "baseUrl": "./",
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "paths": {
+      "~/*": ["*"],
+      "@/*": ["src/*"]
+    }
   },
   "include": [
     "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "sms_dist"
   ]
 }
