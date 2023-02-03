@@ -43,7 +43,7 @@
     ]
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx,js,jsx}": "npm run lint"
+    "**/*.{ts,tsx,js,jsx}": "npm run lint"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.50.0",
