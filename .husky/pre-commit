@@ -1,5 +1,5 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
 
-echo "pre-commit";
-npx lint-staged;
+# 这里就是唤醒lint-staged
+npx lint-staged 
