@@ -3,3 +3,4 @@
 
 # 这里就是唤醒lint-staged
 npx run lint-staged 
+pnpm lint
