@@ -2,4 +2,4 @@
 . "$(dirname "$0")/_/husky.sh"
 
 # 这里就是唤醒lint-staged
-npx lint-staged 
+npx run lint-staged 
