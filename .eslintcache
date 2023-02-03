@@ -1,0 +1,43 @@
+[
+  {
+    "E:\\react-template\\demo\\react_ts_mb\\src\\index.tsx": "1"
+  },
+  {
+    "size": 573,
+    "mtime": 1675441101517,
+    "results": "2",
+    "hashOfConfig": "3"
+  },
+  {
+    "filePath": "4",
+    "messages": "5",
+    "suppressedMessages": "6",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  "x25e56",
+  "E:\\react-template\\demo\\react_ts_mb\\src\\index.tsx",
+  [
+    "7"
+  ],
+  [],
+  {
+    "ruleId": "8",
+    "severity": 1,
+    "message": "9",
+    "line": 8,
+    "column": 7,
+    "nodeType": "10",
+    "messageId": "11",
+    "endLine": 8,
+    "endColumn": 16
+  },
+  "@typescript-eslint/no-unused-vars",
+  "'abc144411' is assigned a value but never used.",
+  "Identifier",
+  "unusedVar"
+]
